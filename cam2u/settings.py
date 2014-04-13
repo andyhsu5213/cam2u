@@ -106,3 +106,4 @@ BOWER_INSTALLED_APPS = (
     'jquery#2.1.0',
 )
 
+# hihi

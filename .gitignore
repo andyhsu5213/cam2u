@@ -3,6 +3,9 @@
 
 cam2u.wsgi
 
+settings.py
+*.pyc
+
 *.png
 *.jpg
 *.gif
