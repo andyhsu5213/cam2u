@@ -1,0 +1,10 @@
+# ignore file list
+.htaccess
+
+cam2u.wsgi
+
+*.png
+*.jpg
+*.gif
+
+
