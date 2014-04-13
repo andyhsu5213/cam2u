@@ -82,19 +82,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# for local development
+# static file directory
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# extra static file directory
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static")
 )
 
-# path of static file
-'''
-STATIC_ROOT = (
-    os.path.join(BASE_DIR, 'static'),
-)
-'''
-
-# path of template file
+# template file directory
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, "templates"),
 )
@@ -110,7 +105,4 @@ STATICFILES_FINDERS = (
 BOWER_INSTALLED_APPS = (
     'jquery#2.1.0',
 )
-
-
-
 
