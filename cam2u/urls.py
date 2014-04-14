@@ -9,5 +9,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'', include('base.urls')),
+    url('', include('django_socketio.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )

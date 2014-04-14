@@ -2,6 +2,9 @@
 import os
 import sys
 
+path = os.path.dirname(os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(path, 'apps'))
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cam2u.settings")
 

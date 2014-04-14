@@ -1,0 +1,19 @@
+
+
+{% load staticfiles %}
+<script type="text/javascript" src='{% static 'jquery/dist/jquery.min.js' %}'></script>
+
+<div id="header">Index</div>
+
+========
+
+<head>
+    {% load socketio_tags %}
+    {% socketio %}
+    <script>
+        var socket = new io.Socket();
+        socket.connect();
+        // etc
+    </script>
+</head>
+
